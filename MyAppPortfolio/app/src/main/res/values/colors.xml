@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/material_deep_teal_200</color>
+    <color name="colorPrimaryDark">@color/material_deep_teal_500</color>
+    <color name="colorAccent">#F08C35</color>
+
+</resources>
