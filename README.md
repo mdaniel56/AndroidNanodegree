@@ -1,7 +1,8 @@
 # Android Nanodegree Program
 ============
 
-# MyAppPortfolio
+## MyAppPortfolio
+-------
 
 ![Logo](Logos/my_app_portfolio.png)
 
@@ -9,7 +10,7 @@ Design and build a layout in Android Studio for an app that showcases your app p
 
 ![Screenshot](Screenshots/portfolio.png)
 
-License
+##License
 -------
 
     Copyright 2015 Marc Daniel
@@ -26,3 +27,7 @@ License
     See the License for the specific language governing permissions and
     limitations under the License.
 
+## Contact
+-------
+#### Daniel Marc
+* e-mail: [@mail](marc.daniel.mail@gmail.com "marc.daniel.mail@gmail.com")
