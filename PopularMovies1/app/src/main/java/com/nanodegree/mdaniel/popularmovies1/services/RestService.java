@@ -10,10 +10,10 @@ import retrofit.RestAdapter;
  */
 public class RestService {
 
-    String key = "3addd8d64258066c7280afd821613b78";
     String absolute_url = "http://api.themoviedb.org";
+    String key = "3addd8d64258066c7280afd821613b78";
 
-    public void getBoxOfficeModel(String sort_by, String key, Callback<BoxOfficeModel> callback) {
+    public void getBoxOfficeModel(String sort_by, Callback<BoxOfficeModel> callback) {
 
         RestAdapter restAdapter = new RestAdapter.Builder()
                 .setEndpoint(absolute_url)

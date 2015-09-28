@@ -1,4 +1,4 @@
-package com.nanodegree.mdaniel.popularmovies1.adapter;
+package com.nanodegree.mdaniel.popularmovies1.ui.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 import com.nanodegree.mdaniel.popularmovies1.R;
 import com.nanodegree.mdaniel.popularmovies1.model.MovieModel;
-import com.nanodegree.mdaniel.popularmovies1.ui.MovieActivity;
+import com.nanodegree.mdaniel.popularmovies1.ui.activities.MovieActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

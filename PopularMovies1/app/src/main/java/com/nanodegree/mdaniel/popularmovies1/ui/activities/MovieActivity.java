@@ -1,4 +1,4 @@
-package com.nanodegree.mdaniel.popularmovies1.ui;
+package com.nanodegree.mdaniel.popularmovies1.ui.activities;
 
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
