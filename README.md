@@ -10,6 +10,22 @@ Design and build a layout in Android Studio for an app that showcases your app p
 
 ![Screenshot](Screenshots/portfolio.png)
 
+## Popular Movies, Stage 1
+-------
+
+![Logo](Logos/popular_movies_stage1.png)
+
+Build a movies Application with an grid arrangement which allow the user to change sort order by most popular, or by highest-rated. Using themoviedb.org API
+
+Tap on a movie poster allow a transition to a details screen with additional information : 
+
+- original title
+- movie poster image thumbnail
+- a plot synopsis
+- user rating 
+- release date
+
+
 ##License
 -------
 
