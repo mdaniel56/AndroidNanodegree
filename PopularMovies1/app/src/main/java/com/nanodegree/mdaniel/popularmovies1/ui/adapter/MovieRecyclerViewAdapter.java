@@ -46,7 +46,6 @@ public  class MovieRecyclerViewAdapter extends RecyclerView.Adapter<MovieRecycle
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
                     .inflate(R.layout.grid_item, parent, false);
-        //view.setBackgroundResource(mBackground);
         return new ViewHolder(view);
     }
 
@@ -55,8 +54,6 @@ public  class MovieRecyclerViewAdapter extends RecyclerView.Adapter<MovieRecycle
         final MovieModel movie = mMovies.get(position);
         Context context = holder.imgThumbnail.getContext();
         Picasso.with(context).load("http://image.tmdb.org/t/p/w342//"+ movie.getposter_path()).into(holder.imgThumbnail);
-        //holder.mTextFirstName.setText(profile.get_first_name());
-        //holder.mTextLasteName.setText(profile.get_last_name());
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override

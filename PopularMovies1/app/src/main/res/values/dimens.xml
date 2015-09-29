@@ -11,4 +11,6 @@
     <dimen name="toolbar_elevation">5dp</dimen>
     <dimen name="fab_elevation">10dp</dimen>
     <dimen name="card_elevation">2dp</dimen>
+
+    <dimen name="column_width">80dp</dimen>
 </resources>

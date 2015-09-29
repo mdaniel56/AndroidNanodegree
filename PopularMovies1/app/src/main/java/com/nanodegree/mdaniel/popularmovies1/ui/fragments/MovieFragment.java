@@ -41,7 +41,8 @@ public class MovieFragment extends Fragment implements Callback<BoxOfficeModel> 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         RecyclerView rv = (RecyclerView) inflater.inflate(
-                R.layout.fragment_popular, container, false);
+                R.layout.fragment_recyclerview_movies, container, false);
+
         RestService rest = new RestService();
         rest.getBoxOfficeModel(getArguments().getString("sortBy", ""), this);
         setupRecyclerView(rv);
@@ -49,8 +50,9 @@ public class MovieFragment extends Fragment implements Callback<BoxOfficeModel> 
     }
 
     private void setupRecyclerView(RecyclerView recyclerView) {
-        mLayoutManager = new GridLayoutManager(recyclerView.getContext(), 3);
-        recyclerView.setLayoutManager(mLayoutManager);
+        recyclerView.setHasFixedSize(true);
+        //mLayoutManager = new GridLayoutManager(recyclerView.getContext(), 2);
+        //recyclerView.setLayoutManager(mLayoutManager);
         mGridAdapter = new MovieRecyclerViewAdapter();
         recyclerView.setAdapter(mGridAdapter);
     }

@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         final ActionBar ab = getSupportActionBar();
-        ab.setHomeAsUpIndicator(R.drawable.ic_menu);
         ab.setDisplayHomeAsUpEnabled(false);
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
