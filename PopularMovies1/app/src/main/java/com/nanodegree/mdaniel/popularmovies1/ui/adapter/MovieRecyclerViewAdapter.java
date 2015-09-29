@@ -65,7 +65,7 @@ public  class MovieRecyclerViewAdapter extends RecyclerView.Adapter<MovieRecycle
                 intent.putExtra("movieBackDrop", "http://image.tmdb.org/t/p/w342//"+ movie.getbackdrop_path());
                 intent.putExtra("moviePoster", "http://image.tmdb.org/t/p/w342//"+ movie.getposter_path());
                 intent.putExtra("synopsis", movie.getoverview());
-                intent.putExtra("user_rating", movie.getvote_average());
+                intent.putExtra("user_rating", String.valueOf(movie.getvote_average()));
                 intent.putExtra("release_date", movie.getrelease_date());
                 context.startActivity(intent);
             }
@@ -80,9 +80,6 @@ public  class MovieRecyclerViewAdapter extends RecyclerView.Adapter<MovieRecycle
             super(itemView);
             mView = itemView;
             imgThumbnail = (ImageView)itemView.findViewById(R.id.img_thumbnail);
-            //mImageAvatar = (ImageView) view.findViewById(R.id.avatar);
-            //mTextFirstName = (TextView) view.findViewById(android.R.id.text1);
-            //mTextLasteName = (TextView) view.findViewById(android.R.id.text2);
         }
     }
 }

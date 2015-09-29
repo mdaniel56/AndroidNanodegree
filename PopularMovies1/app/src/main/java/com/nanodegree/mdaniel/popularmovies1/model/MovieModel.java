@@ -66,18 +66,5 @@ public class MovieModel {
         return vote_count;
     }
 
-    /*@Override
-    public String toString() {
-        return "AccountModel{" +
-                "access_token=" + access_token +
-                ", email_verified='" + email_verified + '\'' +
-                ", facebook_id='" + facebook_id + '\'' +
-                ", beta='" + beta + '\'' +
-                ", owner_profile_id='" + owner_profile_id + '\'' +
-                ", id='" + id + '\'' +
-                ", refresh_token='" + refresh_token + '\'' +
-                ", token_expires='" + token_expires + '\'' +
-                '}';
-    }*/
 }
 

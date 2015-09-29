@@ -20,7 +20,8 @@ import butterknife.ButterKnife;
 
 public class MovieActivity extends AppCompatActivity
 {
-    @Bind(R.id.movieTitle) TextView release_date;
+    @Bind(R.id.releaseDate) TextView release_date;
+    @Bind(R.id.userRating) TextView user_rating;
     @Bind(R.id.movieSynopsis) TextView synopsis;
     @Bind(R.id.moviePoster) ImageView cover;
     @Bind(R.id.backdrop) ImageView backdrop;
@@ -47,6 +48,7 @@ public class MovieActivity extends AppCompatActivity
         Picasso.with(this).load(getIntent().getStringExtra("movieBackDrop")).into(backdrop);
 
         release_date.setText(getIntent().getStringExtra("release_date"));
+        user_rating.setText(getIntent().getStringExtra("user_rating")+ "/10");
         synopsis.setText(getIntent().getStringExtra("synopsis"));
         Picasso.with(this).load(getIntent().getStringExtra("moviePoster")).resize(320,500).into(cover);
 
