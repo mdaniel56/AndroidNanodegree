@@ -25,6 +25,8 @@ Tap on a movie poster allow a transition to a details screen with additional inf
 - user rating 
 - release date
 
+![Screenshot](Screenshots/popular_movies_stage2.png)
+![Screenshot](Screenshots/popular_movies_stage1.png)
 
 ##License
 -------
